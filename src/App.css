@@ -1,0 +1,32 @@
+@import "index"; 
+
+:root {
+  --variable-test: teal;
+}
+
+
+.CustomPropertiesTest {
+  background-color: var(--variable-test);
+}
+
+.App {
+  .NestedTest {
+    background-color: pink;
+  }
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: var(--ms9);
+}
+
+.App-header {
+  background-color: #222;
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
