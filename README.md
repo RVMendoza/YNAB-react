@@ -2,7 +2,7 @@
 
 ![sup](http://media1.giphy.com/media/yWJI9tPcrgsj6/giphy.gif)
 
-I love the web app [YNAB](https://www.youneedabudget.com/).  It's a money management software that has been a game changer for me. 
+I love [YNAB](https://www.youneedabudget.com/).  It's a money management methodlogy that is implemented through a web app. It has been a game changer for me and has helped me take financial ownership over the past 5 years.
 
 This will be my attempt to re-write the front-end as a component driven, mobile first web app...all in React!
 (Not guts, just front-end.  Back end stuff is just not my currency.)
