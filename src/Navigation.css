@@ -1,0 +1,13 @@
+.Navigation {
+  background: linear-gradient(to bottom, #34aebe, #23809b);
+  color: white;
+  font-size: var(--ms4);
+  height: 100%;
+}
+
+.Navigation-item {
+  &:hover {
+    background: rgba(0,89,111,0.4);
+    cursor: pointer;
+  }
+}

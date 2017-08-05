@@ -2,6 +2,7 @@
 @import "reset-css";
 @import "suitcss";
 @import "suitcss-utils-space";
+@import "Navigation";
 
 :root {
   --variable-test: teal;
@@ -21,6 +22,10 @@ html {
   box-sizing: border-box;
 }
  
+ body, html, #root {
+   height: 100%;
+ }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }

@@ -1,29 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
+import Navigation from './Navigation';
 
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {collapsed : true}
-  }
-
-  onNavToggle(collapsed) {
-    this.setState({ collapsed: !collapsed });
-  } 
 
   render() {
-    var {collapsed} = this.state;
     return (
       <div className="App u-flex">
         <nav className="App-nav">
-          {collapsed ?
-            "Navigation collapsed"
-            :
-            "Navigation expanded"
-          }
-          <button onClick={() => this.onNavToggle(collapsed)}>
-            {this.state.collapsed ? "expand" : "collapse"}
-          </button>
+          <Navigation />
         </nav>
         <div className="App-mainContainer">
           <header>
